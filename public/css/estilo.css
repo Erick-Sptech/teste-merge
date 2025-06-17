@@ -132,7 +132,7 @@ font-size: 100px;
 }
 
 .texto-social{
-  margin-top: 200px;
+  margin-top: 300px;
 width: 100%;
 height: 30%;
 display: flex;
@@ -148,10 +148,10 @@ font-weight: 500;
   font-family:Heart Breaking Bad;
 font-size: 160px;
 font-weight: 500;
-
+margin-top: 0px;
+margin-bottom: -50px;
 }
 .texto-social p{
-    margin-top: -100px;
   width: 70%;
 font-size: 21px;
 color: #62a543;
