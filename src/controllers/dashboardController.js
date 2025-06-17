@@ -16,7 +16,7 @@ async function buscar(req, res) {
 async function criar(req, res) {
     let dados  = req.body
     let resposta = await dashboardModel.insertDashboard(dados)
-    console.log(dados)
+
     
     /*
   var descricao = req.body.descricao;

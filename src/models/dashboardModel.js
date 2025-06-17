@@ -19,7 +19,7 @@ function buscarDashboard(dados) {
     return database.executar(instrucaoSql);
 }
 function insertDashboard(dados) {
-    console.log(dados)
+    console.log(dados,"ta no model de dashboard")
     var instrucaoSql = `
 
     `

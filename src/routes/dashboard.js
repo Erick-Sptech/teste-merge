@@ -10,6 +10,10 @@ router.get("/:empresa?/:lote?/:medicao?", function (req, res) {
 
 router.post("/", function (req, res) {
     dashboardController.criar(req, res);
+    /*
+    parametros via body
+    metodo post
+     */
 });
 
 module.exports = router;
