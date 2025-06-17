@@ -17,6 +17,7 @@ body {
   width: 100%;
   color: rgb(216, 216, 216);
   font-family: 'Barlow', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #083b08;
 }
 
 .dash-right .avisos .container {
@@ -44,7 +45,7 @@ body {
 
 .dash-right .avisos .div-form textarea {
   width: 95%;
-  border: 3px solid #e6005a;
+  border: 3px solid #b87d0f;
   background-color: white;
   border-radius: 5px;
 }
@@ -58,7 +59,7 @@ body {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background-color: #b87d0f;
   width: 120px;
 }
 
@@ -71,7 +72,7 @@ body {
   font-size: 14px;
   padding: 5px 8px;
   color: white;
-  background-color: #e6005a;
+  background-color: #b87d0f;
   width: 80px;
 }
 
@@ -82,7 +83,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  border-bottom: 3px solid #e6005a;
+  border-bottom: 3px solid #b87d0f;
   padding: 20px;
 }
 
@@ -92,12 +93,15 @@ body {
 
 .div-results {
   width: 100%;
+  background-color: #086808;
+
 }
 
 .div-results .feed-container {
   background-color: #212124;
   border-radius: 5px;
   margin-bottom: 80px;
+  background-color: #086808;
 }
 
 .div-buttons {
@@ -173,7 +177,7 @@ body {
 }
 
 .perigo-quente {
-  background-color: #ff7043;
+  background-color: #910d0d;
 }
 
 .alerta-frio {
@@ -181,7 +185,7 @@ body {
 }
 
 .alerta-quente {
-  background-color: #ffee58;
+  background-color: #ff5858;
 }
 
 .ideal {
@@ -288,7 +292,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   padding: 10px 15px;
-  color: #e6005a;
+  color: #b87d0f;
   background-color: white;
   margin: 5px;
   border-radius: 3px;
@@ -297,11 +301,11 @@ body {
 
 .btn-pink {
   color: white;
-  background-color: #e6005a;
+  background-color: #b87d0f;
 }
 
 .btn-white {
-  color: #e6005a;
+  color: #b87d0f;
   background-color: white;
 
 }
@@ -331,6 +335,7 @@ canvas {
 
 .janela {
   display: flex;
+  background-image: url(../assets/imgs/tabela_periodica.webp);
   /* width: 100vw; */
 }
 
