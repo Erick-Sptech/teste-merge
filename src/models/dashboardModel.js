@@ -22,6 +22,8 @@ function insertDashboard(dados) {
     console.log(dados,"ta no model de dashboard")
     var instrucaoSql = `
 
+    INSERT INTO medida(lm35_temperatura, fk_aquario) VALUES ('${dados}',1)
+
     `
     return database.executar(instrucaoSql);
 }
