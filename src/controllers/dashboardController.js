@@ -13,8 +13,9 @@ async function buscar(req, res) {
         res.status(500).json(erro.sqlMessage);
     }
 }
-function criar(req, res) {
+async function criar(req, res) {
     let dados  = req.body
+    let resposta = await dashboardModel.insertDashboard(dados)
     console.log(dados)
     
     /*

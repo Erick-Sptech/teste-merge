@@ -18,7 +18,15 @@ function buscarDashboard(dados) {
     `
     return database.executar(instrucaoSql);
 }
+function insertDashboard(dados) {
+    console.log(dados)
+    var instrucaoSql = `
+
+    `
+    return database.executar(instrucaoSql);
+}
 
 module.exports = {
-    buscarDashboard
+    buscarDashboard,
+    insertDashboard
 }
